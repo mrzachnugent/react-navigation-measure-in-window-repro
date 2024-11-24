@@ -3,8 +3,8 @@ import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import * as React from "react";
 
-const IS_TRANSPARENT_HEADER = false;
-// const IS_TRANSPARENT_HEADER = true;
+// const IS_TRANSPARENT_HEADER = false;
+const IS_TRANSPARENT_HEADER = true;
 
 export default function RootLayout() {
   return (
